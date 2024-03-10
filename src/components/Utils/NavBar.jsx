@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import { constants } from "../../constants";
 
 const Navbar = () => {
-
-    const [currentTab, setCurrentTab] = useState(0)
     const [navtabs, setNavTabs] = useState(constants)
     const tabChangeHandler = (selectedIndex) =>{
         let updatedNavTabs = navtabs.map((item, index)=>{
@@ -15,7 +13,6 @@ const Navbar = () => {
             }
             return item
         })
-        setCurrentTab(selectedIndex)
         setNavTabs(updatedNavTabs)
     }
     return <nav className="navouter">
