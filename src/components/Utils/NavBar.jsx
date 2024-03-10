@@ -1,14 +1,29 @@
-import React from "react";
+import React , { useState } from "react";
 import { Link } from 'react-router-dom'
 import { constants } from "../../constants";
 
 const Navbar = () => {
+
+    const [currentTab, setCurrentTab] = useState(0)
+    const [navtabs, setNavTabs] = useState(constants)
+    const tabChangeHandler = (selectedIndex) =>{
+        let updatedNavTabs = navtabs.map((item, index)=>{
+            if(index === selectedIndex){
+                item.active = true
+            }else{
+                item.active = false
+            }
+            return item
+        })
+        setCurrentTab(selectedIndex)
+        setNavTabs(updatedNavTabs)
+    }
     return <nav className="navouter">
         <ul className="navbar">
-            {constants.map((item, index) => {
+            {navtabs.map((item, index) => {
                 return (
-                    <li key={index} className={item.isActive ? "active": ''}>
-                        <Link to={item.path}>{item.page}</Link>
+                    <li key={index} onClick={()=>{tabChangeHandler(index)}}>
+                        <Link to={item.path} className={item.active ? "active": ''}>{item.page}</Link>
                     </li>
                 )
             })}
