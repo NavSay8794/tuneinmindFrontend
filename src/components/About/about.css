@@ -1,0 +1,55 @@
+/* about styles */
+
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin-left: 48px;
+}
+
+.heading > h1{
+    text-shadow:rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+    font-size: 45px;
+    color: #25318D;
+    font-family: 'Times New Roman', Times, serif;
+}
+.moto > p {
+    text-align: center;
+}
+
+.moto > p > span{
+    background-color: #eee8d8;
+    font-style: italic;
+    color: #25318D;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.4;
+}
+
+.aboutSection{
+    width: 90% !important;
+    height: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px;
+    background-color: rgba(162,163,233,0.51);
+    padding: 20px;
+    padding-top: 5px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+.teamSection{
+    width: 99.9%;
+    position: relative;
+    height: 40%;
+    border: 1px solid black;
+    left: 0;
+    background-color: #eeeeee;
+    margin-top:60px
+}

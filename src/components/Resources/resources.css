@@ -1,0 +1,15 @@
+.resourcesPage > h1{
+    font-size: 70px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #25318D;
+}
+
+.resourcesPage > h2{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #25318D;
+}

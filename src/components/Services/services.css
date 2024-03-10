@@ -1,0 +1,100 @@
+.servicePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    margin-left: 48px;
+}
+
+.singleService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.serviceImage {
+    background-color: rgba(65, 65, 65, 1);
+    border-color: rgba(65, 65, 65, 1);
+    border-radius: var(0px, 3px);
+    border-style: solid;
+    border-width: var(0px, 2px);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.serviceSection {
+    width: 90.2% !important;
+    height: auto;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px;
+    background-color: rgba(162, 163, 233, 0.51);
+    padding: 20px;
+    padding-top: 5px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+.serviceSection>p {
+    font-size: 26px !important;
+}
+
+.innerItem {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.serviceHeading>h1 {
+    line-height: 1.35em;
+    text-align: center;
+    font-size: 40px;
+}
+
+.serviceHeading>h1>span {
+    color: #25318D;
+    letter-spacing: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.addData>span {
+    background-color: #eee8d8;
+    font-style: italic;
+    color: #25318D;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+}
+
+.serviceButtons {
+    display: 'flex' !important;
+    flex-direction: "row";
+    justify-content: "space-between"
+}
+
+.serviceButton {
+    width: 30%;
+    height: 50px;
+    margin: 5px;
+}
+
+
+.serviceButton>button {
+    background-color: #eee8d8 !important;
+    width: 100%;
+    padding: 8px;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.serviceButton>button>span {
+    color: #25318D !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}

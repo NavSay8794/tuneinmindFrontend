@@ -1,0 +1,104 @@
+
+
+.contactContainer{
+    width: 90%;
+    height: 600px;
+    border-radius: 30px;
+    margin-left: 35px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormContainer{
+    width: 75%;
+    height: 92%;
+    border-radius: 20px;
+    background: #fff;
+    margin-left: 10px;
+    padding: 5px 15px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formHeadings > h1 {
+    font-size: 38px;
+    margin: 10px auto 10px auto;
+    color: #25318D
+}
+
+.formHeadings > p > span {
+    font-size:  20px;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+    /* background: rgba(162,163,233,0.51); */
+    line-height: 1.3;
+}
+
+.contactForm{
+    margin-top: 80px;
+    width: 70%;
+    padding: 10px;
+}
+
+.names , .contactDet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formFields{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.formFields > label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.formFields > input{
+    border: none;
+    border-bottom: 1.5px solid;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message > .formFields{
+   width: 100%;
+}
+.formFields > textarea{
+    border: none;
+    border-bottom: 1.5px solid;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formFields> input:focus , .formFields > textarea:focus{
+    outline: none;
+}
+
+.submit{
+    width: 30%;
+    height: 50px;
+}
+
+
+.submit > button{
+    background-color: rgb(55, 4, 157);
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    
+}
+
+.submit > button > span{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}

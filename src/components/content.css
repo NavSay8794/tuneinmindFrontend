@@ -1,0 +1,84 @@
+.main{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    min-height: 80vh;
+    /* border: 1px solid black; */
+    border-bottom: 0;
+}
+
+.homeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+}
+
+.firstSection, .secondSection, .lastSection{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.midSection{
+    display: flex;
+    align-items: center;
+    
+}
+
+.midSection > h1{
+    padding: 0;
+    font-size: 75px;
+    position: relative;
+    left: 70px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.imageSection{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.textSection{
+    width: 50%;
+    height: auto;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    background-color: rgba(162,163,233,0.51);
+    padding: 20px;
+    padding-top: 5px;
+    border-bottom-right-radius: 30px;
+}
+
+.left-margin{
+    margin-left: 40px;
+}
+
+.right-margin{
+    margin-right: 15px;
+}
+
+.align-right{
+    position: relative;
+    right: -120px;
+}
+
+
+li> p>.item{
+    font-style: italic;
+    font-family: times new roman,times,serif;
+    font-size: 20px;
+}
+
+
