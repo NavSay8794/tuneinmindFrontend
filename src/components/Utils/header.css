@@ -54,7 +54,7 @@
 }
 
 .navbar > li > a:hover{
-    background-color: rgb(170, 114, 223);
+    background-color:   rgba(162, 163, 233, 0.6);
     color: black;
 }
 .logoContainer{
@@ -70,8 +70,8 @@
 }
 
 .active{
-    background-color: rgb(170, 114, 223);
-    color: white !important;
+    background-color:  rgba(162, 163, 233, 0.7);
+    color: black !important;
 }
 
 .tagline > h2{
