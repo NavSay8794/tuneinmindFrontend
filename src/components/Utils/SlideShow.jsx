@@ -50,7 +50,7 @@ const SlideShow = () =>{
         <div className="slideshowSlider" style={{transform: `translate3d(${-index*100}%,0,0)`}}>
             {slides.map((item)=>{
                 return <div className="slide" key={item.id}>
-                    <img src={item.image} className='image'/>
+                    <img src={item.image} alt='imasges' className='image'/>
                 </div>
             })}
         </div>

@@ -5,7 +5,7 @@ import home1Img from '../../assets/home1.png'
 import provideImg from '../../assets/provide.png'
 
 import {list1Data, provideData} from '../../constants'
-import ImageSlider from "../Utils/ImageSlider";
+// import ImageSlider from "../Utils/ImageSlider";
 import './home.css'
 import SlideShow from "../Utils/SlideShow";
 
