@@ -15,7 +15,13 @@ const Footer = () => {
                 </div>
                 <Logo width={60} height={32} />
             </div>
-            <div className='footerRight'>This is for maps</div>
+            <div className='footerRight'>
+                <h3 style={{fontSize: "2rem" , fontFamily: "Times New Roman', Times, serif", padding: "0", marginBottom: '0'}}>Address</h3>
+                <p style={{fontSize: "1.3rem" , fontFamily: "Times New Roman', Times, serif"}}>Kidz care clinic, Shop no. 43<br />
+                Gokul nagari 2, Opposite Gokul concorde<br />
+                Thakur village, Kandivali East<br />
+                Mumbai 400101</p>
+            </div>
         </div>
     )
 }

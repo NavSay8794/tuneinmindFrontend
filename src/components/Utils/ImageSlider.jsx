@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import childCouncelling from '../../assets/childcounseling.png'
-import careerCouncelling from '../../assets/career.png'
-import groupCouncelling from '../../assets/groupC.png'
-import individualCouncelling from '../../assets/individualC.png'
-import preMaritalCouncelling from '../../assets/premaritalC.png'
-import workshops from '../../assets/trainings.png'
+import childCouncelling from '../../assets/homeimages/img1.jpeg'
+import careerCouncelling from '../../assets/homeimages/img2.jpeg'
+import groupCouncelling from '../../assets/homeimages/img3.jpeg'
+import individualCouncelling from '../../assets/homeimages/img4.jpeg'
+import preMaritalCouncelling from '../../assets/homeimages/img7.jpeg'
+import workshops from '../../assets/homeimages/img6.jpeg'
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 
