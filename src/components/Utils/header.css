@@ -73,7 +73,8 @@
 }
 
 #navbarBG{
-    background-color: rgba(162, 163, 233, 0.4) !important
+    background-color: rgba(162, 163, 233, 0.4) !important;
+    margin-bottom: 20px;
 }
 .tagline > p{
     line-height: 1.4em;
