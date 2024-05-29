@@ -1,3 +1,40 @@
+
+.homeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+}
+.firstSection, .secondSection, .lastSection{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.textSection , .imageSection{
+    width: 100% !important
+}
+
+.midSection{
+    display: flex;
+    align-items: center;
+    
+}
+
+.midSection > h1{
+    padding: 0;
+    font-size: 75px;
+    position: relative;
+    left: 70px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+}
 .slider {
     position: relative;
     height: 100vh;
@@ -44,4 +81,8 @@
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+}
+
+.m-b{
+    margin-bottom: 20px;
 }

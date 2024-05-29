@@ -1,16 +1,16 @@
 import React from "react";
 import logo from '../../assets/logo.png'
 
-const Logo = ({ width = 130, height = 68 }) => {
+const Logo = ({ width = 110, height = 55 }) => {
     return (
         <div className="logoContainer">
             <div className="logo">
                 <img src={logo} alt="Tune In Mind" width={width} height={height} />
             </div>
             <div className="tagline">
-                <h2>
+                <p>
                     <span style={{ letterSpacing: "0.05rem" }}>Mental Health Care</span>
-                </h2>
+                </p>
             </div>
         </div>
     )

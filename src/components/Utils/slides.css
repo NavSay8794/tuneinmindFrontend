@@ -10,9 +10,11 @@
 }
 .slide{
     display: inline-block;
-    height: 50vh;
+    height: auto;
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
