@@ -35,7 +35,7 @@ const Home = () => {
 
             </section>
             <section className="row">
-                <h1 style={{textAlign: "center"}}>What Do We Provide?</h1>
+                <h1 style={{textAlign: "center"}}><em>What Do We Provide?</em></h1>
             </section>
             <section className="row">
                 <section className="col-lg-6 col-xs-12">
