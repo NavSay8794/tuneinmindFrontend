@@ -10,7 +10,7 @@ import TestimonialsAndAssessment from './Testimonials/TAndA';
 import './content.css'
 const Content = () => {
     return (
-        <main className="main">
+        <main className="container">
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about/' element={<About />} />
