@@ -50,17 +50,21 @@ const Services = () => {
         // setShowLayout(!showlayout)
     }
 
-    return <section className="servicePage">
-        <div style={{ display: 'flex', flexDirection: "row", justifyContent: "space-between" , marginBottom: '20px'}}>
+    return <section className="container servicePage">
+
+        <div className="row">
             {services.map((item, index) => {
-                return <div className='serviceButton'>
-                    <button onClick={()=>layoutChangeHandler(index)}><span>{item.name}</span></button>
+                return <div className='serviceButton col-sm-2'>
+                    <button onClick={() => layoutChangeHandler(index)}><span>{item.name}</span></button>
                 </div>
             })
             }
         </div>
+        <>
+            <ServiceLayout data={servicesData[serviceIndex]} showLayoutHandler={layoutChangeHandler} image={imageMapper[serviceIndex]} />
+        </>
 
-       <ServiceLayout data={servicesData[serviceIndex]} showLayoutHandler={layoutChangeHandler} image={imageMapper[serviceIndex]} />
+
     </section>
 }
 

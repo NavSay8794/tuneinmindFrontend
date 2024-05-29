@@ -21,7 +21,7 @@ function TimNavbar() {
         setNavTabs(updatedNavTabs)
     }
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" id='navbarBG'>
       <Container fluid>
         <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
